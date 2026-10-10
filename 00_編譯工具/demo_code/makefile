@@ -10,7 +10,7 @@ RTL      := sync_cnt.v
 TB       := tb_sync_cnt.v
 OUTPUT   := sim_out
 VCD      := sim_out.vcd
-EDA_TOOL := /home/hachimi/Applications/hdl_opensource_simulator/surfer
+EDA_TOOL := /home/hachimi/Applications/hdl_tools/surfer
 
 
 # ==============================================================================
