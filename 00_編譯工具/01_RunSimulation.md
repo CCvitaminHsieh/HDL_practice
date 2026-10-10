@@ -43,7 +43,7 @@ OUTPUT   := sim_out
 VCD      := sim_out.vcd
 
 # EDA 波形檢視工具路徑 (請依實際安裝位置調整)
-EDA_TOOL := /home/hachimi/Applications/hdl_opensource_simulator/surfer
+EDA_TOOL := /home/hachimi/Applications/hdl_tools/surfer
 
 # ==============================================================================
 # 偽目標宣告
