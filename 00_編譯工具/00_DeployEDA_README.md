@@ -1,4 +1,4 @@
-This README file has been enhanced with an gemini.
+This README file has been enhanced with Google Gemini.
 
 # Environment Setup & Prerequisites
 
@@ -6,7 +6,7 @@ This README file has been enhanced with an gemini.
 - **OS**: Ubuntu 22.04 LTS
 
 ## 2. EDA Tools & Extensions
-This project relies on the following open-source EDA tools and editor plugins:
+This project relies on the following open-source EDA tools and VScode plugins:
 
 - **Simulation**:
   - [Icarus Verilog](https://steveicarus.github.io/iverilog/) (`v11.0` stable)
@@ -24,11 +24,11 @@ This project relies on the following open-source EDA tools and editor plugins:
 
 ### Step 1: Install Icarus Verilog & GTKWave
 Install the simulation and waveform packages via APT:
-```bash
-sudo apt update
-sudo apt install -y iverilog 
+  ```bash
+  sudo apt update
+  sudo apt install -y iverilog gtkwave
 
-```
+  ```
 
 ### Step 2: Set Up Surfer (Optional Waveform Viewer)
 
@@ -39,10 +39,10 @@ Download and extract the latest pre-built binary from the [Surfer Project](https
 ### Step 3: Configure VS Code
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/).
-2. Install the recommended extensions from the CLI or via the Extensions view (`Ctrl+Shift+X`):
+2. Install the recommended extensions from the CLI or via the Extensions view: 
 
-```bash
-code --install-extension sterben.fpga-support
-code --install-extension ms-vscode.makefile-tools
-code --install-extension ms-vscode.cmake-tools
-```
+    ```bash
+    code --install-extension sterben.fpga-support
+    code --install-extension ms-vscode.makefile-tools
+    code --install-extension ms-vscode.cmake-tools
+    ```
