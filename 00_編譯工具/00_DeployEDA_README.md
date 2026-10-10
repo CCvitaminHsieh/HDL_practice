@@ -8,7 +8,7 @@ This README file has been enhanced with an gemini.
 ## 2. EDA Tools & Extensions
 This project relies on the following open-source EDA tools and editor plugins:
 
-- **Simulation & Synthesis**:
+- **Simulation**:
   - [Icarus Verilog](https://steveicarus.github.io/iverilog/) (`v11.0` stable)
 - **Waveform Viewers**:
   - [GTKWave](http://gtkwave.sourceforge.net/)
