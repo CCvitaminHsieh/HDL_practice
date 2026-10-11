@@ -2,7 +2,7 @@ This README file has been enhanced with Google Gemini.
 
 # 範例模擬專案：同步計數器 (Demo Code)
 
-本目錄包含同步計數器（Synchronous Counter）的 Verilog 範例原始碼、測試平台（Testbench）以及基於 GNU Make 的自動化模擬腳本。
+本目錄包含同步計數器（Synchronous Counter）的 Verilog 範例原始碼、測試平台（Testbench）以及基於 GNU Make 的自動化波形時序仿真腳本。
 
 ---
 
@@ -31,7 +31,7 @@ demo_code/
 
 ## 2. Makefile 設定
 
-該腳本使用 `iverilog` 進行編譯、`vvp` 執行模擬，並自動呼叫波形檢視器開啟倣真結果。
+該腳本使用 `iverilog` 進行編譯、`vvp` 執行模擬，並自動呼叫`surfer`波形檢視器開啟時序仿真結果。
 
 ```makefile
 # ==============================================================================

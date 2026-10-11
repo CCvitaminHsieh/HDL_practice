@@ -1,18 +1,18 @@
-This README file has been enhanced with Google Gemini.
+This README file is enhanced with Google Gemini.
 
 # Environment Setup & Prerequisites
 
-## 1. System Requirements
+## 1. Current OS
 - **OS**: Ubuntu 22.04 LTS
 
-## 2. EDA Tools & Extensions
+## 2. EDA Tools & VScode Extensions
 This project relies on the following open-source EDA tools and VScode plugins:
 
 - **Simulation**:
   - [Icarus Verilog](https://steveicarus.github.io/iverilog/) (`v11.0` stable)
 - **Waveform Viewers**:
   - [GTKWave](http://gtkwave.sourceforge.net/)
-  - [Surfer](https://surfer-project.org/) *(Modern alternative to GTKWave)*
+  - [Surfer](https://surfer-project.org/) *(Modern waveform viewer alternative to GTKWave)*
 - **Visual Studio Code Extensions**:
   - [Digital IDE](https://marketplace.visualstudio.com/items?itemName=sterben.fpga-support) (`sterben`)
   - [Makefile Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.makefile-tools) (`Microsoft`)
